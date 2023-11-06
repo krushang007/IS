@@ -17,6 +17,8 @@ public class myRSA {
     }
     public static void main(String[] args) {
         Double p,q,e;
+        // p=3,q=7,e=11,text=14
+        // 1< e <(p-1)*(q-1)
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter p : ");
         p=sc.nextDouble();
